@@ -11,8 +11,8 @@ import "@livekit/components-styles"; // Đảm bảo import style mặc định 
 import { Track } from "livekit-client";
 import "./App.css";
 
-const tokenEndpoint =
-  import.meta.env.VITE_TOKEN_ENDPOINT || "http://localhost:5000";
+const tokenEndpoint = import.meta.env.VITE_TOKEN_ENDPOINT;
+
 
 function RoomView() {
   // Xác định xem đang dùng thiết bị di động hay không để chỉnh giao diện
